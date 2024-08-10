@@ -22,6 +22,7 @@
 		878B380C2C5E2AC700894B9B /* CommonConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = 878B380B2C5E2AC700894B9B /* CommonConfig.swift */; };
 		878B380E2C5E4E3500894B9B /* BaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 878B380D2C5E4E3500894B9B /* BaseViewController.swift */; };
 		878B38122C5E798300894B9B /* CustomTabBarController+Button.swift in Sources */ = {isa = PBXBuildFile; fileRef = 878B38112C5E798300894B9B /* CustomTabBarController+Button.swift */; };
+		87F645E32C67839800536473 /* NHLocation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87F645E22C67839800536473 /* NHLocation.swift */; };
 		A17922FC5C455CE5B6F5F265 /* libPods-Chat_Swift.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F6351DF24B65868365200FEF /* libPods-Chat_Swift.a */; };
 		A67C7E797A8B7CAE0FB0C3F6 /* libPods-Chat_SwiftTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = FDE77C8C9474042DC3E62E69 /* libPods-Chat_SwiftTests.a */; };
 /* End PBXBuildFile section */
@@ -67,6 +68,7 @@
 		878B380B2C5E2AC700894B9B /* CommonConfig.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommonConfig.swift; sourceTree = "<group>"; };
 		878B380D2C5E4E3500894B9B /* BaseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseViewController.swift; sourceTree = "<group>"; };
 		878B38112C5E798300894B9B /* CustomTabBarController+Button.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "CustomTabBarController+Button.swift"; sourceTree = "<group>"; };
+		87F645E22C67839800536473 /* NHLocation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NHLocation.swift; sourceTree = "<group>"; };
 		C2CD086D2B1994ED1F46B2FD /* Pods-Chat_Swift-Chat_SwiftUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Chat_Swift-Chat_SwiftUITests.debug.xcconfig"; path = "Target Support Files/Pods-Chat_Swift-Chat_SwiftUITests/Pods-Chat_Swift-Chat_SwiftUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		F100B60A1DAB499920E7AC83 /* Pods-Chat_SwiftTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Chat_SwiftTests.debug.xcconfig"; path = "Target Support Files/Pods-Chat_SwiftTests/Pods-Chat_SwiftTests.debug.xcconfig"; sourceTree = "<group>"; };
 		F6351DF24B65868365200FEF /* libPods-Chat_Swift.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Chat_Swift.a"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -185,6 +187,7 @@
 			isa = PBXGroup;
 			children = (
 				878B38022C5E29BB00894B9B /* SecondViewController.swift */,
+				87F645E22C67839800536473 /* NHLocation.swift */,
 			);
 			path = SecondTab;
 			sourceTree = "<group>";
@@ -192,8 +195,8 @@
 		878B38062C5E29C600894B9B /* Common */ = {
 			isa = PBXGroup;
 			children = (
-				878B38112C5E798300894B9B /* CustomTabBarController+Button.swift */,
 				878B38072C5E29DC00894B9B /* AppDelegate.swift */,
+				878B38112C5E798300894B9B /* CustomTabBarController+Button.swift */,
 				878B38092C5E29EC00894B9B /* CustomTabBarController.swift */,
 				878B380B2C5E2AC700894B9B /* CommonConfig.swift */,
 				878B380D2C5E4E3500894B9B /* BaseViewController.swift */,
@@ -453,6 +456,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				87F645E32C67839800536473 /* NHLocation.swift in Sources */,
 				878B38122C5E798300894B9B /* CustomTabBarController+Button.swift in Sources */,
 				878B38082C5E29DC00894B9B /* AppDelegate.swift in Sources */,
 				878B38052C5E29BB00894B9B /* SecondViewController.swift in Sources */,

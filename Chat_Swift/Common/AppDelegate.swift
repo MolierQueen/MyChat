@@ -16,13 +16,13 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
         
         let firstNav = UINavigationController(rootViewController: FitstViewController())
-        firstNav.tabBarItem = UITabBarItem(title: "Chat", image: UIImage(named: "tab_album"), selectedImage: UIImage(named: "tab_album"))
+        firstNav.tabBarItem = UITabBarItem(title: "Chat", image: UIImage(named: "tab_chat"), selectedImage: UIImage(named: "tab_chat"))
         
         let secondNav = UINavigationController(rootViewController: SecondViewController())
         secondNav.tabBarItem = UITabBarItem(title: "Album", image: UIImage(named: "tab_album"), selectedImage: UIImage(named: "tab_album"))
 
         let thirdNav = UINavigationController(rootViewController: ThirdViewController())
-        thirdNav.tabBarItem = UITabBarItem(title: "My", image: UIImage(named: "tab_album"), selectedImage: UIImage(named: "tab_album"))
+        thirdNav.tabBarItem = UITabBarItem(title: "My", image: UIImage(named: "tab_user"), selectedImage: UIImage(named: "tab_user"))
 
         
         let mainTabVC = CustomTabBarController()
